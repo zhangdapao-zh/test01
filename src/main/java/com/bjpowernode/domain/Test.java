@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Vector;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Test {
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class Test {
 
         ArrayList<Object> arrayList = new ArrayList<>();
         Vector<Object> vector = new Vector<>();
-
+        ConcurrentHashMap<Object,Integer> c = new ConcurrentHashMap<>();
 
     }
 
